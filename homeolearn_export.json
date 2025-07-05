@@ -1,0 +1,137 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "modules": [
+        {
+          "id": "101",
+          "topics": [
+            {
+              "lessonParts": [
+                {
+                  "content": "Съдържание за историята...",
+                  "type": "text",
+                  "id": "lp_1011_1"
+                }
+              ],
+              "completed": true,
+              "title": "История на хомеопатията",
+              "quizId": "q1011",
+              "discussionId": "d1011",
+              "id": "1011"
+            },
+            {
+              "id": "1012",
+              "discussionId": "d1012",
+              "lessonParts": [
+                {
+                  "type": "text",
+                  "content": "Съдържание за закона за подобието...",
+                  "id": "lp_1012_1"
+                }
+              ],
+              "title": "Закон за подобието",
+              "completed": true,
+              "quizId": "q1012"
+            },
+            {
+              "quizId": "q1013",
+              "title": "Динамизация и разреждане",
+              "completed": false,
+              "lessonParts": [],
+              "discussionId": "d1013",
+              "id": "1013"
+            }
+          ],
+          "title": "Модул 1: Принципи и история"
+        }
+      ],
+      "title": "Основи на клиничната хомеопатия",
+      "icon": "H"
+    },
+    {
+      "id": "4",
+      "title": "Materia Medica: Arnica montana",
+      "modules": [
+        {
+          "topics": [
+            {
+              "lessonParts": [
+                {
+                  "type": "text",
+                  "content": "Arnica montana е многогодишно тревисто растение...",
+                  "id": "lp_4011_1"
+                },
+                {
+                  "id": "lp_4011_2",
+                  "title": "Видео: Събиране и обработка на Arnica",
+                  "type": "video",
+                  "url": "placeholder_video_url"
+                },
+                {
+                  "id": "lp_4011_3",
+                  "content": "Основните активни съставки са сесквитерпенови лактони...",
+                  "type": "text"
+                }
+              ],
+              "discussionId": "d4011",
+              "title": "Произход и основни характеристики",
+              "id": "4011",
+              "quizId": "q4011",
+              "completed": false
+            },
+            {
+              "discussionId": "d4012",
+              "completed": false,
+              "quizId": "q4012",
+              "lessonParts": [],
+              "title": "Приложение при травми и контузии",
+              "id": "4012"
+            }
+          ],
+          "id": "401",
+          "title": "Модул 1: Ключови симптоми и приложения"
+        }
+      ],
+      "icon": "A"
+    }
+  ],
+  "quizzes": {
+    "q4011": {
+      "id": "q4011",
+      "title": "Тест: Произход и основни характеристики на Arnica",
+      "questions": [
+        {
+          "id": 1,
+          "correctAnswer": 1,
+          "text": "Към кое семейство принадлежи Arnica montana?",
+          "options": [
+            "Розоцветни (Rosaceae)",
+            "Сложноцветни (Asteraceae)",
+            "Картофови (Solanaceae)"
+          ]
+        },
+        {
+          "text": "Коя е основната активна съставка в Arnica?",
+          "correctAnswer": 2,
+          "id": 2,
+          "options": [
+            "Салицин",
+            "Кофеин",
+            "Хеленалин"
+          ]
+        },
+        {
+          "text": "Коя част от растението се използва?",
+          "correctAnswer": 2,
+          "id": 3,
+          "options": [
+            "Само цветовете",
+            "Само корените",
+            "Цялото растение"
+          ]
+        }
+      ]
+    }
+  }
+}
